@@ -1,0 +1,1 @@
+This repository demonstrates a common Elixir coding error:  unhandled exceptions within `Enum.each`.  The provided `bug.ex` file shows the erroneous code.  The solution (`bugSolution.ex`) demonstrates a more robust approach using `Enum.reduce` to handle potential exceptions or `try-catch` block within Enum.each.
